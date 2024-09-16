@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#countriesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+}
+
+.country-card img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.country-card h3 {
+    margin: 10px 0;
+}

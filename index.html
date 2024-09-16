@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Países</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorar Países</h1>
+        <input type="text" id="searchInput" placeholder="Buscar por país...">
+        <select id="regionFilter">
+            <option value="">Filtrar por Região</option>
+            <option value="Africa">África</option>
+            <option value="Americas">Américas</option>
+            <option value="Asia">Ásia</option>
+            <option value="Europe">Europa</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+        <select id="populationFilter">
+            <option value="">Filtrar por População</option>
+            <option value="<1000000">Menos de 1M</option>
+            <option value="1000000-10000000">1M-10M</option>
+            <option value="10000000-100000000">10M-100M</option>
+            <option value=">100000000">Mais de 100M</option>
+        </select>
+        <select id="sortOrder">
+            <option value="">Ordenar</option>
+            <option value="name">Nome</option>
+            <option value="population">População</option>
+            <option value="area">Área</option>
+        </select>
+    </header>
+
+    <main id="countriesList"></main>
+
+    <script src="script.js"></script>
+</body>
+</html>
