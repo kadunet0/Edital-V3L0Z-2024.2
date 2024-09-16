@@ -95,7 +95,7 @@ Este projeto está licenciado sob a MIT License. Sinta-se à vontade para usá-l
 
 Se você tiver alguma dúvida ou sugestão, entre em contato:
 
-- **Email:** seuemail@exemplo.com
+- **Email:** carlosmelocabral2003@gmail.com
 - **GitHub:** [kadunet0](https://github.com/kadunet0)
 
 
